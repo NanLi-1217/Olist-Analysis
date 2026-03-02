@@ -49,17 +49,18 @@ To improve dashboard performance and ensure data reliability, raw tables were tr
 ## 💡 Key Business Insights
 
 ### 1) Daily Trend
+![Daily Trend](images/Daily_Trend.png)
 
-![Category Performence & Payments]images/Category Performence & Payments.png
 
 * **Upward Momentum:** The 7-day moving average (7DMA) shows steady growth across the analyzed period, smoothing out strong day-to-day volatility.
 * **Core Metrics:** The dashboard tracks total revenue, total orders, total customers, and AOV across the selected date range.
 
 > Note: Currency and units follow the dataset’s original context. If needed, metrics can be labeled explicitly (e.g., BRL) for clarity.
 
-### 2) Category Performenc & Payments
+### 2) Category Performance & Payments
 
-![Category & Payment](images/Category Performenc & Payments.png)
+![Category & Payment](images/Category_Performance_Payments.png)
+
 
 * **Profit Drivers vs. Traffic Drivers:** Some categories dominate **payment value** while others dominate **delivered volume**, indicating different roles in revenue vs. demand generation.
 * **Payment Localization:** Credit card transactions dominate, while **boleto** represents a meaningful share, highlighting the importance of supporting local payment methods.
