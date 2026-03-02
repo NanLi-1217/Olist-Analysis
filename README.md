@@ -50,7 +50,7 @@ To improve dashboard performance and ensure data reliability, raw tables were tr
 
 ### 1) Daily Trend
 
-images/Category Performence & Payments.png
+![Category Performence & Payments]images/Category Performence & Payments.png
 
 * **Upward Momentum:** The 7-day moving average (7DMA) shows steady growth across the analyzed period, smoothing out strong day-to-day volatility.
 * **Core Metrics:** The dashboard tracks total revenue, total orders, total customers, and AOV across the selected date range.
