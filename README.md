@@ -64,8 +64,6 @@ To improve dashboard performance and ensure data reliability, raw tables were tr
 * **Profit Drivers vs. Traffic Drivers:** Some categories dominate **payment value** while others dominate **delivered volume**, indicating different roles in revenue vs. demand generation.
 * **Payment Localization:** Credit card transactions dominate, while **boleto** represents a meaningful share, highlighting the importance of supporting local payment methods.
 
-🔗 **Interactive Dashboard Link:** *(optional — add your Power BI published link here)*
-
 ---
 
 ## 📁 Repository Structure
