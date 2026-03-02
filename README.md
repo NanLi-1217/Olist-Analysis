@@ -82,8 +82,8 @@ To improve dashboard performance and ensure data reliability, raw tables were tr
 │   └── category_payment.csv
 │
 ├── images/
-│   ├── Daily Trend.png
-│   └── Category Performence & Payments.png
+│   ├── Daily_Trend.png
+│   └── Category_Performance_Payments.png
 │
 └── README.md
 ```
