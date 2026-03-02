@@ -1,0 +1,2 @@
+n_orders,n_order_items,n_payments,n_customers,orders_missing_order_id,orders_missing_customer_id,orders_missing_purchase_ts,duplicate_order_id_count,duplicate_customer_id_count,orders_without_customer_match,payments_without_order_match,items_without_order_match,total_payments_value,total_items_price,total_items_freight
+99441,112650,103886,99441,0,0,0,0,0,0,0,0,16008872.12,13591643.7,2251909.54
