@@ -1,7 +1,6 @@
-# 📊 Olist E-Commerce Analytics Engineering & Power BI Dashboard
+# 📊 Olist E-Commerce Data Modeling & Power BI Dashboard
 
 ![SQL](https://img.shields.io/badge/SQL-SQLite-blue?style=flat)
-![Analytics Engineering](https://img.shields.io/badge/Analytics_Engineering-Data%20Marts-success)
 ![Data Visualization](https://img.shields.io/badge/Data_Visualization-Power%20BI-orange?style=flat\&logo=powerbi)
 
 ## 📌 Executive Summary & Business Value
@@ -18,8 +17,7 @@ This project demonstrates an end-to-end Analytics Engineering workflow using the
 ---
 
 ## 🛠️ Data Architecture & Pipeline
-
-To improve dashboard performance and ensure data reliability, raw tables were transformed into lightweight **data marts** using modular SQL scripts:
+To optimize dashboard performance, complex KPI rollups and payment allocations were engineered into lightweight SQL data marts, while clean, simple dimensional tables (e.g., raw payments) were ingested directly into Power BI for categorical breakdowns:
 
 1. **`01_data_quality_checks.sql` (Data Profiling & QA)**
 
