@@ -4,10 +4,8 @@
 ![Analytics Engineering](https://img.shields.io/badge/Analytics_Engineering-Data%20Marts-success)
 ![Data Visualization](https://img.shields.io/badge/Data_Visualization-Power%20BI-orange?style=flat\&logo=powerbi)
 
-## 📌 Executive Summary
-
-This repository contains an end-to-end analytics project using the **Olist Brazilian e-commerce dataset**.
-Rather than focusing only on visualization, this project demonstrates an **Analytics Engineering workflow**: SQL-based data profiling & validation → metric modeling via lightweight data marts → an interactive Power BI dashboard for monitoring revenue trends, category performance, and payment behaviors.
+## 📌 Executive Summary & Business Value
+This project demonstrates an end-to-end Analytics Engineering workflow using the Olist Brazilian e-commerce dataset. Moving beyond simple visualization, I engineered a robust data pipeline that prioritizes data reliability and dimensional modeling. By implementing automated Data Quality (DQ) profiling and translating raw transactional schemas into lightweight, BI-ready data marts, this solution enables stakeholders to track revenue health and optimize category strategies without querying bottlenecked raw tables.
 
 ---
 
@@ -62,9 +60,12 @@ To improve dashboard performance and ensure data reliability, raw tables were tr
 ![Category & Payment](images/Category_Performance_Payments.png)
 
 
-* **Profit Drivers vs. Traffic Drivers:** Some categories dominate **payment value** while others dominate **delivered volume**, indicating different roles in revenue vs. demand generation.
-* **Payment Localization:** Credit card transactions dominate, while **boleto** represents a meaningful share, highlighting the importance of supporting local payment methods.
 
+Revenue & Traffic Decoupling: The dimensional modeling revealed a critical business dynamic: "Traffic-driving" categories (highest delivered volume, e.g., Bed/Bath) differ significantly from "Profit-driving" categories (highest allocated payment value, e.g., Health/Beauty). This insight directly informs marketing spend and inventory allocation strategies.
+
+Robust Payment Allocation Model: Designed a granular allocation algorithm in SQL to accurately distribute order-level payments (including freight and vouchers) down to the item-category level using weighted price ratios, solving a complex many-to-many granular reconciliation issue.
+
+Data Integrity First: Built a dq_summary validation layer prior to BI ingestion to proactively trap orphan records, missing PK/FKs, and duplicate transactions, ensuring 100% financial reporting accuracy.
 ---
 
 ## 📁 Repository Structure
